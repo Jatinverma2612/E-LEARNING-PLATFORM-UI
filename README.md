@@ -66,5 +66,5 @@ Create a real-world user interface that feels functional
 
 This project reflects my front-end skills and ability to think like a user. It was developed independently as part of an internship challenge to simulate working in a professional development environment.
 
-
+![Alt text](https://github.com/Jatinverma2612/E-LEARNING-PLATFORM-UI/blob/main/Screenshot%202025-04-09%20110912.png)
 
