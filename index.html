@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillify-Learning-Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Skillify Learning Hub 🚀</h1>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search Courses...">
+    </div>
+  
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="courses">Courses</button>
+      <button class="tab-btn" data-tab="progress">Progress</button>
+    </div>
+  
+    <div id="courses" class="tab-content active">
+      <div class="course-card" data-title="HTML Basics">
+        <h3>HTML Basics</h3>
+        <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" allowfullscreen></iframe>
+        <div class="progress-bar"><div class="progress-fill" style="width: 70%;"></div></div>
+      </div>
+      <div class="course-card" data-title="CSS Fundamentals">
+        <h3>CSS Fundamentals</h3>
+        <iframe src="https://www.youtube.com/embed/yfoY53QXEnI" allowfullscreen></iframe>
+        <div class="progress-bar"><div class="progress-fill" style="width: 45%;"></div></div>
+      </div>
+      <div class="course-card" data-title="JavaScript Essentials">
+        <h3>JavaScript Essentials</h3>
+        <iframe src="https://www.youtube.com/embed/PkZNo7MFNFg" allowfullscreen></iframe>
+        <div class="progress-bar"><div class="progress-fill" style="width: 30%;"></div></div>
+      </div>
+    </div>
+  
+    <div id="progress" class="tab-content">
+      <div class="course-card">
+        <h4>HTML Progress - 70%</h4>
+        <div class="progress-bar"><div class="progress-fill" style="width: 70%;"></div></div>
+      </div>
+      <div class="course-card">
+        <h4>CSS Progress - 45%</h4>
+        <div class="progress-bar"><div class="progress-fill" style="width: 45%;"></div></div>
+      </div>
+      <div class="course-card">
+        <h4>JavaScript Progress - 30%</h4>
+        <div class="progress-bar"><div class="progress-fill" style="width: 30%;"></div></div>
+      </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
